@@ -1,0 +1,41 @@
+:root {
+  /*Primary Colors*/
+  --brand-green: #00856F;
+  --brand-green-light: #DCE9E2;
+  --brand-green-light-02: #F7F9F9;
+  --brand-beige: #FFFAF1;
+  --brand-green-hover: #00453A;
+
+  /*Secondary Colors*/
+  --gray-headline: #061800;
+  --gray-paragraph: #384633;
+  --white: #3E3E3E;
+
+  font-size: 62.5% /* 1rem = 10px */;
+}
+
+body {
+  font-family: 'DM Sans';
+  background: var(--brand-green-light);
+  font-size: 1.6rem;
+}
+
+h4 {
+  color: var(--brand-green);
+  font-size: 1.4rem;
+}
+
+h1 {
+  color: #212529;
+  font-size: 3.4rem;
+}
+
+p {
+  color: var(--gray-paragraph);
+  font-size: 1.8rem;
+}
+
+button {
+  background: var(--brand-green);
+  color: white;
+}
