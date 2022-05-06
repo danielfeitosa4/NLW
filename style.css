@@ -1,3 +1,7 @@
+* {
+  margin: 0;
+}
+
 :root {
   /*Primary Colors*/
   --brand-green: #00856F;
@@ -18,24 +22,93 @@ body {
   font-family: 'DM Sans';
   background: var(--brand-green-light);
   font-size: 1.6rem;
+  text-align: center;
+}
+
+header {
+  width: 37.5rem;
+  margin-left: auto;  
+  margin-right: auto;
+  margin-top: 4.1rem;
 }
 
 h4 {
   color: var(--brand-green);
   font-size: 1.4rem;
+  margin-bottom: 1.6rem;
 }
 
 h1 {
   color: #212529;
   font-size: 3.4rem;
+  line-height: 130%;
+  margin-bottom: 2.4rem;
 }
 
 p {
   color: var(--gray-paragraph);
   font-size: 1.8rem;
+  line-height: 150%;
+  font-weight: 400;
+  padding: 2rem;
+  margin-bottom: 3.2rem;
 }
 
 button {
   background: var(--brand-green);
+
+  border: none;
+  border-radius: 4.0rem;
+
+  margin-bottom: 6.0rem;
+
+  height: 6.2rem;
+  width: 26.3rem;
+  
   color: white;
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  font-weight: 700;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.6rem;
+
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#caixa-fora {
+  position: absolute;
+  width: 32.7rem;
+  height: 47.0rem;
+  left: 7.4rem;
+  top: 82.8rem;
+
+  border: 1px solid #DCE9E2;
+  border-radius: 0.6rem;
+
+  background-color: var(--brand-beige);
+}
+
+#caixa-fora #caixa1 {
+  width: 16.7rem;
+  height: 9.0rem;
+
+  margin-top: 4.0rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 6.0rem;
+}
+
+#caixa-fora #caixa2 {
+  position: absolute;
+  width: 16.7rem;
+  height: 9.0rem;
+  left: 27.1rem;
+  top: 86.8rem;
+}
+
+#caixa-fora #caixa3 {
 }
