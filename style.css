@@ -20,7 +20,6 @@
 
 body {
   font-family: 'DM Sans';
-  background: var(--brand-green-light);
   font-size: 1.6rem;
   text-align: center;
 }
@@ -81,19 +80,17 @@ button {
 
 .stats {
   width: 32.7rem;
-  height: 57.0rem;
   
-
+  padding-block: 4rem;
   margin-inline: auto;
 
-  background-color: var(--brand-beige);
-  
   display: flex;
   flex-direction: column;
   justify-content: center;
   gap: 6.0rem;
 
-  border: 0.1rem solid #DCE9E2;
+  background-color: var(--brand-beige);
+  border: 0.1rem solid var(--brand-green-light);
   border-radius: 0.6rem;
 }
 
@@ -110,4 +107,24 @@ button {
   color: var(--brand-green);
   font-size: 1.6rem;
   line-height: 150%;
+}
+
+header img {
+  width: 26.4rem;
+  display: block;
+  margin-inline: auto;
+  object-position: 0 2rem;
+}
+
+header::before {
+  content: "";
+  width: 100vw;
+  height: 100vw;
+  background-color: var(--brand-green-light);
+  display: block;
+  
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
 }
