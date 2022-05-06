@@ -82,6 +82,7 @@ button {
 .stats {
   width: 32.7rem;
   height: 57.0rem;
+  
 
   margin-inline: auto;
 
@@ -99,8 +100,14 @@ button {
 .stat h3 {
   color: var(--gray-headline);
   font-size: 4.8rem;
+  line-height: 130%;
+
+  margin-bottom: 0.4rem;
 } 
 
 .stat p {
   margin: 0;
+  color: var(--brand-green);
+  font-size: 1.6rem;
+  line-height: 150%;
 }
