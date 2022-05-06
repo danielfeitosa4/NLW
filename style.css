@@ -79,36 +79,28 @@ button {
   margin-left: auto;
 }
 
-#caixa-fora {
-  position: absolute;
+.stats {
   width: 32.7rem;
-  height: 47.0rem;
-  left: 7.4rem;
-  top: 82.8rem;
+  height: 57.0rem;
 
-  border: 1px solid #DCE9E2;
-  border-radius: 0.6rem;
+  margin-inline: auto;
 
   background-color: var(--brand-beige);
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 6.0rem;
+
+  border: 0.1rem solid #DCE9E2;
+  border-radius: 0.6rem;
 }
 
-#caixa-fora #caixa1 {
-  width: 16.7rem;
-  height: 9.0rem;
+.stat h3 {
+  color: var(--gray-headline);
+  font-size: 4.8rem;
+} 
 
-  margin-top: 4.0rem;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 6.0rem;
-}
-
-#caixa-fora #caixa2 {
-  position: absolute;
-  width: 16.7rem;
-  height: 9.0rem;
-  left: 27.1rem;
-  top: 86.8rem;
-}
-
-#caixa-fora #caixa3 {
+.stat p {
+  margin: 0;
 }
